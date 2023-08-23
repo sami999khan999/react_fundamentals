@@ -2,13 +2,13 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-// // react - React is an open-source JavaScript library for building user interfaces (UIs) in web applications. It is maintained by Facebook and a community of developers. React is widely used for creating dynamic, interactive, and reusable UI components, making it a popular choice for building modern web and mobile applications. //
+// // React
+
+// // React is an open-source JavaScript library for building user interfaces (UIs) in web applications. It is maintained by Facebook and a community of developers. React is widely used for creating dynamic, interactive, and reusable UI components, making it a popular choice for building modern web and mobile applications. //
 
 //============================================================================================================================================//
 
-// // reactDOM
-
-// // React uses a virtual DOM to optimize the performance of updates to the actual DOM. When data in a React component changes, React doesn't immediately update the real DOM. Instead, it first updates a virtual representation of the DOM, compares it to the previous virtual DOM snapshot, and then calculates and applies the minimal set of changes needed to update the actual DOM. This approach minimizes DOM manipulations and improves performance. //
+// // reactDOM - React uses a virtual DOM to optimize the performance of updates to the actual DOM. When data in a React component changes, React doesn't immediately update the real DOM. Instead, it first updates a virtual representation of the DOM, compares it to the previous virtual DOM snapshot, and then calculates and applies the minimal set of changes needed to update the actual DOM. This approach minimizes DOM manipulations and improves performance. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -76,13 +76,41 @@
 
 //============================================================================================================================================//
 
-// // more detaild in ./component/FunctionalComponent
+// // more details in ./components/FunctionalComponent.js
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
 // // Class component
+
+// // These are the older way of defining components in React. Class components are JavaScript classes that extend the React.Component base class. They are defined using ES6 classes and have a state, lifecycle methods, and the ability to manage their own internal state. //
+
+//============================================================================================================================================//
+
+// // more details in ./components/ClassComponent.js and ./component/Counter.js
+
+//============================================================================================================================================//
+
+// // Props
+
+// // In React, "props" is short for "properties," and it refers to a mechanism for passing data from a parent component (the one that renders another component) to a child component (the one being rendered). Props are a way to make your React components dynamic and reusable, as they allow you to customize the behavior and appearance of a component based on the data you pass to it. //
+
+// // Passing Data: You can pass data from a parent component to a child component by including attributes in the JSX when you render the child component. //
+
+// // Receiving Data: In the child component, you can access the data passed as props via the props object. //
+
+//============================================================================================================================================//
+
+// // State
+
+// // State a property of a React component that is used to store and manage the component's internal state. React components can have state, which allows them to keep track of data that can change over time and trigger re-renders when the state is updated. //
+
+//============================================================================================================================================//
+
+// // SetState
+
+// // In React, the setState method is used to update the state of a component, whether it's a class component or a functional component using hooks. It's a fundamental method for managing and updating the component's state, which in turn triggers a re-render of the component with the updated state. //
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
