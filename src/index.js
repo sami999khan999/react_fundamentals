@@ -88,10 +88,6 @@
 
 //============================================================================================================================================//
 
-// // more details in ./components/ClassComponent.js and ./component/Counter.js
-
-//============================================================================================================================================//
-
 // // Props
 
 // // In React, "props" is short for "properties," and it refers to a mechanism for passing data from a parent component (the one that renders another component) to a child component (the one being rendered). Props are a way to make your React components dynamic and reusable, as they allow you to customize the behavior and appearance of a component based on the data you pass to it. //
@@ -113,6 +109,10 @@
 // // In React, the setState method is used to update the state of a component, whether it's a class component or a functional component using hooks. It's a fundamental method for managing and updating the component's state, which in turn triggers a re-render of the component with the updated state. //
 
 //============================================================================================================================================//
+
+// // more details in ./components/ClassComponent.js and ./component/Counter.js
+
+//============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
@@ -123,6 +123,30 @@
 //============================================================================================================================================//
 
 // // more detaild in ./components.PropsDrilling.js
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // Event binding
+
+// //  Event binding refers to the process of associating event handlers (functions) with specific events triggered by user interactions or other actions in your application. Event binding is essential for capturing and responding to user input, such as clicks, keyboard presses, form submissions, and more. //
+
+//============================================================================================================================================//
+
+// // Class Components (Using this):
+
+// // In class components, you define event handlers as methods within the component class. To bind the event handler to the component instance, you often need to explicitly use .bind(this) or define the event handler as an arrow function in the constructor. //
+
+//============================================================================================================================================//
+
+// // Functional Components (Using Arrow Functions or useCallback Hook):
+
+// // In functional components, you can use arrow functions or the useCallback hook to bind event handlers. Arrow functions inherently capture the surrounding context, so you don't need to explicitly bind them. //
+
+//============================================================================================================================================//
+
+// // more detaild in ./components/EvenBinding.js
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

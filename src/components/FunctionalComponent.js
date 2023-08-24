@@ -1,7 +1,7 @@
 import React from "react";
 
-function Hello() {
+function FunctionalComponent() {
   return <h1>Hello World!</h1>;
 }
 
-export default Hello;
+export default FunctionalComponent;
