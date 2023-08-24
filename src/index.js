@@ -116,6 +116,18 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
+// // Props drilling
+
+// // Props drilling refers to the process of passing props (short for properties) through multiple layers of nested components in a React application. While props are a powerful way to pass data from a parent component to a child component, when you have a deeply nested component structure, passing props down through each intermediate component can become cumbersome and result in what is known as "props drilling." //
+
+//============================================================================================================================================//
+
+// // more detaild in ./components.PropsDrilling.js
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
