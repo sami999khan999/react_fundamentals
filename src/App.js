@@ -3,6 +3,7 @@
 // import State from "./components/State";
 // import PropsDrilling from "./components/PropsDrilling";
 // import EventBindig from "./components/EventBindig";
+import ConditionalRendering from "./components/ConditionalRendering";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <PropsDrilling name="Sanji" birthYear={2001} /> */}
       {/* <PropsDrilling name="Usapp" birthYear={2003} /> */}
       {/* <EventBindig /> */}
+      <ConditionalRendering />
     </div>
   );
 }
