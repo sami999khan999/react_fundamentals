@@ -1,3 +1,36 @@
+// React {
+// reactDOM -
+// Component -
+// Declarative Syntax -
+// One-way Data Flow -
+// JSX - JSX (JavaScript XML) -
+// Component Lifecycle -
+// State Management -
+// React Router -
+// Ecosystem -
+// }
+
+// State {
+// Stateful Information -
+// }
+
+// Functional component -
+
+// Class component {
+// Props -
+// State -
+// SetState -
+// }
+
+// Props drilling -
+
+// Event binding {
+// Class Components (Using this) -
+// Functional Components (Using Arrow Functions or useCallback Hook) -
+// }
+
+// Conditional rendering
+
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
@@ -12,7 +45,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // Component-Based Architecture - React is based on a component-based architecture. In React, you build your UI by creating reusable components, which are like building blocks for your application. Components can be composed together to create complex UIs. //
+// // Component - Based Architecture - React is based on a component-based architecture. In React, you build your UI by creating reusable components, which are like building blocks for your application. Components can be composed together to create complex UIs. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -92,7 +125,11 @@
 
 // // In React, "props" is short for "properties," and it refers to a mechanism for passing data from a parent component (the one that renders another component) to a child component (the one being rendered). Props are a way to make your React components dynamic and reusable, as they allow you to customize the behavior and appearance of a component based on the data you pass to it. //
 
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
 // // Passing Data: You can pass data from a parent component to a child component by including attributes in the JSX when you render the child component. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // // Receiving Data: In the child component, you can access the data passed as props via the props object. //
 
@@ -152,7 +189,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-// // conditional rendering
+// // Conditional rendering
 
 // // Conditional rendering in React involves rendering different content or components based on certain conditions or logic. This is a fundamental concept in building dynamic and interactive user interfaces. React provides several ways to implement conditional rendering, depending on your use case. //
 
