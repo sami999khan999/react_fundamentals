@@ -45,7 +45,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // Component - Based Architecture - React is based on a component-based architecture. In React, you build your UI by creating reusable components, which are like building blocks for your application. Components can be composed together to create complex UIs. //
+// // Component Based Architecture - React is based on a component-based architecture. In React, you build your UI by creating reusable components, which are like building blocks for your application. Components can be composed together to create complex UIs. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
